@@ -124,7 +124,7 @@ The long format should have `Name`, `Subject`, and `Grade` as variables (i.e., c
 
 ```{r}
 long <- wide |>
-  pivot_longer(cols = c(Math, English),
+  pivot_longer(cols = c(Maths, English),
                names_to = "Subject", 
                values_to = "Grade")
 long
